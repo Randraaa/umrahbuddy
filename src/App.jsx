@@ -242,7 +242,7 @@ export default function App() {
                   Kami bukan travel agent konvensional. Kami adalah platform personal untuk memastikan ibadah Anda terbimbing secara personal, aman, dan mendalam.
                 </p>
 
-                <div className="stats-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)', marginTop: '20px' }}>
+                <div className="grid-3-col" style={{ marginTop: '20px' }}>
                   <div className="stat-item" style={{ borderBottom: '4px solid var(--clr-gold)', textAlign: 'left', padding: '36px' }}>
                     <div style={{ color: 'var(--clr-gold-dark)', marginBottom: '16px' }}><Shield size={36} /></div>
                     <h4 style={{ fontSize: '1.25rem', marginBottom: '8px' }}>Rekening Escrow Aman</h4>
@@ -271,7 +271,7 @@ export default function App() {
                   Sistem dual-role yang mudah dijalankan oleh jamaah maupun pemandu.
                 </p>
 
-                <div className="stats-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)', marginTop: '20px' }}>
+                <div className="grid-4-col" style={{ marginTop: '20px' }}>
                   <div style={{ padding: '20px', borderLeft: '1px solid rgba(255, 255, 255, 0.1)' }}>
                     <div style={{ fontSize: '1.8rem', color: 'var(--clr-gold)', fontWeight: 700, fontFamily: 'var(--font-heading)', marginBottom: '12px' }}>01</div>
                     <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '8px' }}>Cari & Bandingkan</h4>
