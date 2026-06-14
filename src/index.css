@@ -1370,12 +1370,15 @@ input:focus, select:focus, textarea:focus {
   gap: 12px;
 }
 
-.footer-links a {
+.footer-links a, .footer-links button {
   font-size: 0.85rem;
+  color: var(--clr-text-light-muted);
   transition: var(--transition-fast);
+  display: block;
+  text-align: left;
 }
 
-.footer-links a:hover {
+.footer-links a:hover, .footer-links button:hover {
   color: var(--clr-gold);
   padding-left: 4px;
 }
