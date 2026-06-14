@@ -1414,17 +1414,58 @@ input:focus, select:focus, textarea:focus {
 }
 
 @media (max-width: 768px) {
+  .main-header {
+    height: auto;
+    padding: 16px 0;
+  }
+  
+  .header-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .nav-links {
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .hero {
+    padding: 80px 0 60px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+  
+  .hero-btns {
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    gap: 12px;
+  }
+  
+  .hero-btns .btn {
+    width: 100%;
   }
   
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    margin-top: -30px;
+    gap: 16px;
   }
   
   .guide-card {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 24px;
   }
   
   .guide-pricing {
@@ -1435,25 +1476,73 @@ input:focus, select:focus, textarea:focus {
     align-items: center;
   }
   
+  .profile-main-card {
+    padding: 24px;
+  }
+  
   .profile-top-header {
     flex-direction: column;
     text-align: center;
+    gap: 16px;
+  }
+  
+  .video-intro-container {
+    height: 220px;
+  }
+  
+  .booking-widget {
+    padding: 24px;
+  }
+  
+  .onboard-card {
+    padding: 24px 16px;
+    margin: 30px auto;
+  }
+  
+  .step-indicator {
+    margin-bottom: 24px;
   }
   
   .dash-layout {
     grid-template-columns: 1fr;
+    gap: 24px;
   }
   
   .booking-item-card {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 20px;
   }
   
   .booking-actions {
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .booking-actions .btn {
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  .chat-window {
+    height: 460px;
+    grid-template-rows: 60px 1fr 70px;
+  }
+  
+  .chat-bubble {
+    max-width: 85%;
   }
   
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
   }
 }
+

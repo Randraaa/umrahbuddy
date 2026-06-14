@@ -343,31 +343,6 @@ export default function App() {
 
       {/* Footer */}
       <Footer setView={setView} />
-
-      {/* Floating Simulator Control - Essential for User testing of Escrow/Chat flows */}
-      <div className="mock-role-switcher">
-        <p>Simulator: Ganti Peran Pengguna</p>
-        <div className="mock-role-btns">
-          <button 
-            onClick={() => setSimulatedRole('visitor')} 
-            className={`mock-role-btn ${currentUser.role === 'visitor' ? 'active' : ''}`}
-          >
-            Visitor
-          </button>
-          <button 
-            onClick={() => setSimulatedRole('pilgrim')} 
-            className={`mock-role-btn ${currentUser.role === 'pilgrim' ? 'active' : ''}`}
-          >
-            Jamaah (Haji Hasan)
-          </button>
-          <button 
-            onClick={() => setSimulatedRole('guide')} 
-            className={`mock-role-btn ${currentUser.role === 'guide' ? 'active' : ''}`}
-          >
-            Muthawwif (Ustadz Ahmad)
-          </button>
-        </div>
-      </div>
     </div>
   );
 }
