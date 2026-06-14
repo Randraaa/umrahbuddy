@@ -304,6 +304,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .hero-title {
+  color: var(--clr-white);
   font-size: 3.5rem;
   line-height: 1.15;
   margin-bottom: 24px;
